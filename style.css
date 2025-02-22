@@ -1,0 +1,33 @@
+body {
+    /* background-color: #1c9885; */
+    font-family: 'Arial', sans-serif;
+    background: url('/static/book32.png') no-repeat center center / cover;
+}
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+    background: yellow(0,0,0,0);
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: bold;
+    color: #007bff;
+}
+
+textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.summary-container {
+    padding: 15px;
+    background: #eef7ff;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+}
